@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charser="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-UA-Compatible" content="ie=edge">
+	<title> Teste tabela </title>
+	<link rel="stylesheet" href="teste.css">
+</head>
+<body>
+	<header>
+		<h1 id="titulo">Compras da Semana</h1>
+	</header>
+	<table>
+		<thead>
+			<tr>
+				<th>Produto</th>
+				<th>Quantidade</th>
+				<th>Valor Unitário</th>
+				<th>Total da Compra</th>
+			</tr>
+		</thead>
+		<tbody class="tabela-produtos">
+			<tr class="produto">
+				<td class="info-produto">Arroz</td>
+				<td class="info-qtd">3</td>
+				<td class="info-precoUnitario">5</td>
+				<td class="info-precoTotal"> </td>
+			</tr>
+			<tr class="produto">
+				<td class="info-produto">Feijao</td>
+				<td class="info-qtd">2</td>
+				<td class="info-precoUnitario">8</td>
+				<td class="info-precoTotal"></td>
+			</tr>
+			<tr class="produto">
+				<td class="info-produto">Massa</td>
+				<td class="info-qtd">4</td>
+				<td class="info-precoUnitario">10</td>
+				<td class="info-precoTotal"></td>
+			</tr>
+		</tbody>
+	</table>
+	<form>
+		<label>Produto:</label>
+		<input id='produto' type="text" placeholder="Nome do produto">
+		<label>Quantidade:</label>
+		<input id='quantidade' type="text" placeholder="un.">
+		<label>Valor Unitário:</label>
+		<input id='unitario' type="text" placeholder="R$">
+	</form>
+
+
+	<button id="adiciona-produto" class="botao">Adicionar</button>
+	<script src="teste.js">
+
+	</script>
+
+</body>
+
+</html>
